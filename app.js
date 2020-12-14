@@ -3,8 +3,9 @@ const app = express()
 const PORT = 3030
 const bodyParser = require('body-parser')
 const bd = require('./bd/1-999.json')
+const cors = require('cors')
 
-
+app.use(cors())
 app.use(bodyParser.json())
 app.get('/', (req, res) => {
   const { q } = req.query
