@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Респиратор 3M",
+    "desc": "Степень защиты FFP2, есть клапан выдоха",
+    "image": "https://source.unsplash.com/400x300/?3M,mask"
+  },
+  {
+    "id": 2,
+    "name": "Перчатки латексные",
+    "desc": "Одноразовые перчатки повышенной прочности",
+    "image": "https://source.unsplash.com/400x300/?latex,gloves"
+  },
+  {
+    "id": 3,
+    "name": "Антисептик",
+    "desc": "Убивает 99.9% микробов и бактерий, не сушит кожу",
+    "image": "https://source.unsplash.com/400x300/?sanitizer"
+  }
+]
