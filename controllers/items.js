@@ -8,13 +8,13 @@ const sendItem = (req, res) => {
   const { name, desc } = req.body
   if (!name || !desc) {
     return res.status(400).send({
-      message: '"name" and "desc" are needed'
+      error: '"name" and "desc" are needed'
     })
   }
 
   if (typeof name !== 'string' || typeof desc !== 'string') {
     return res.status(400).send({
-      message: 'Not valid format for "name" or "desc"'
+      error: 'Not valid format for "name" or "desc"'
     })
   }
 
