@@ -1,5 +1,6 @@
 const router = require('express').Router()
-const { getPoems } = require('../controllers/poems')
-router.get('/', getPoems)
+const { getItems, sendItem } = require('../controllers/items')
+router.get('/', getItems)
+router.post('/', sendItem)
 
 module.exports = router
